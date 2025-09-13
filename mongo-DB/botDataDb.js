@@ -1,4 +1,4 @@
-const mdClient = require("../mongodb");
+const mdClient = require("../mongodb");your mongoDB key here
 );
 
 const bot = mdClient.db("MyBotDataDB").collection("AuthTable");
