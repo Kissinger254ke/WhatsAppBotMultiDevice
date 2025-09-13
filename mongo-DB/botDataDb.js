@@ -1,5 +1,5 @@
 const mdClient = require("../mongodb");
-mdClient.connect(mongodb+srv://kissingermwenda88_db_user:<db_password>@cluster1kissinger254ke.7o3zq9e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1kissinger254ke);
+);
 
 const bot = mdClient.db("MyBotDataDB").collection("AuthTable");
 
